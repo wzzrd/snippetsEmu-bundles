@@ -8,8 +8,8 @@ let cd = g:snip_elem_delim
 
 exec "Snippet proto ".st."className".et.".prototype = {\n".st.et."\n};\n"
 exec "Snippet protomethod ".st."className".et.".prototype.".st."methodName".et." = function(".st.et.") {\n".st.et."\n};\n"
-exec "Snippet afun function ".st."functionName".et." (".st."arguments".et.") {\n".st.et."\n}\n"
-exec "Snippet fun var ".st."functionName".et." = function (".st."arguments".et.") {\n".st.et."\n}\n"
+exec "Snippet afun function ".st.et."(".st."arguments".et.") {\n".st.et."\n}\n".st.et.
+exec "Snippet fun var ".st."functionName".et." = function (".st."arguments".et.") {\n".st.et."\n};\n"
 exec "Snippet alert alert(".st.et.");"
 exec "Snippet clog console.log(".st.et.");"
 exec "Snippet cdebug console.debug(".st.et.");"
